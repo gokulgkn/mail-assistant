@@ -3,7 +3,7 @@
 ## Live Application URL
 
 ### https://mail-assistant.herokuapp.com/
-This URL has the application deployed in
+This URL has the application deployed in Heroku
 
 ## Prerequisites
 
