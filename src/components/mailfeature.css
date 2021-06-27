@@ -1,0 +1,83 @@
+* {
+  box-sizing: border-box;
+}
+
+.mail-box-container {
+  margin: auto;
+  transform: translateY(-250px);
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  padding: 40px;
+  top: 50%;
+  left: 50%;
+  background: #191919;
+  text-align: center;
+  border-radius: 0px;
+  transition: 0.25s;
+  margin-top: 7%;
+}
+
+.input-field-mail {
+  width: 80%;
+  padding: 12px;
+  border: 1px solid #3498db;
+  border-radius: 4px;
+  resize: vertical;
+  color: white;
+  background: none;
+}
+
+.input-field-mail:hover {
+    border-color: #2ecc71;
+}
+
+.input-field-mail:focus {
+    border-color: #2ecc71;
+}
+
+label {
+  padding: 12px 12px 12px 0;
+  display: inline-block;
+}
+
+.btnbtn {
+  background: none;
+  color: white;
+  padding: 12px 20px;
+  border: 2px solid #4caf50;
+  border-radius: 8px;
+  cursor: pointer;
+  float: right;
+}
+
+.btnbtn:hover {
+  background-color: #45a049;
+}
+
+.col-25 {
+  float: left;
+  width: 25%;
+  margin-top: 6px;
+}
+
+.col-75 {
+  float: left;
+  width: 75%;
+  margin-top: 6px;
+}
+
+.row {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+@media screen and (max-width: 600px) {
+  .col-25,
+  .col-75,
+  input[type="submit"] {
+    width: 100%;
+    margin-top: 0;
+  }
+}
